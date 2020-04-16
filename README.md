@@ -11,6 +11,9 @@ A Google Sheet with the ISBN numbers you want to look up listed starting from A2
 ## How to?
 - In your google sheet click on Tools > Script editor. A new window will open. 
 - Copy paste the code from the [Code.gs](Code.gs) document in there.
+- Edit the variables 
+  - `'YOUR_DOC_ID'`, that is the wild scramble of letters and numbers in the url of your Google Sheet and 
+  - `'YOUR_SHEET_NAME'`, that is the name of your sheet that you see on the tab on the bottom and usually Sheet1, if it is a sheet in a new document
 - Click on Run > Run function > myfunction
 - Go back to the Google sheet and it should be done.
 
